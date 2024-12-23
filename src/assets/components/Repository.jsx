@@ -117,6 +117,7 @@ function Repository() {
                                 style={{
                                     maxHeight: "calc(95vh - 200px)",
                                     padding: "16px",
+                                    overflowX: "hidden"
                                 }}
                             >
 

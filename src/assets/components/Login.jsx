@@ -12,7 +12,7 @@ function Login() {
     };
     const loginLinks = "flex gap-[16px] items-center justify-center w-full mb-[16px] bg-[#FFFFFF] py-[16px] border-[1px] border-[#D8DAE5] rounded-[6px] max-w-[476px] hover:cursor-pointer hover:bg-[#e2edfd]";
     return (
-        <div className="flex flex-col items-center justify-center h-screen bg-[#FAFAFA] p-[24px] lg:m-auto max-w-[1000px]">
+        <div style={{ overflow:'auto'}} className="flex flex-col items-center justify-center h-screen bg-[#FAFAFA] p-[24px] lg:m-auto max-w-[1000px]">
             <div className="flex flex-col items-center justify-center bg-[#FFFFFF] border-[2px] border-[#E9EAEB] rounded-lg w-full min-h-[600px]">
                 <div className="flex flex-col items-center justify-center border-b-[2px] px-[16px] w-full">
                     <div className="flex items-center gap-3 mt-[36px]">
@@ -24,8 +24,8 @@ function Login() {
                     </div>
                     <h2 className="text-[24px] font-semibold mb-[20px] mt-[24px]">Welcome to CodeAnt AI</h2>
                     <div className="flex text-[20px] bg-btn_bg w-full mb-[36px] justify-center border rounded-[8px] border-[#E9EAEB] font-medium">
-                        <button className={`py-[12px] px-[14px] w-full outline-none border-0 text-black rounded-[6px] max-w-50 ${tab === 0 ? 'bg-blue-600  text-white' : 'bg-none text-[#414651]'}`} onClick={() => handleTab(0)}> <strong>SAAS</strong> </button>
-                        <button className={`py-[12px] px-[14px] w-full outline-none border-0 text-black rounded-[6px] max-w-50 ${tab === 1 ? 'bg-blue-600 text-white' : 'bg-none  text-[#414651] '}`} onClick={() => handleTab(1)}>  <strong>Self Hosted</strong> </button>
+                        <button className={`py-[12px] px-[14px] w-full outline-none border-0 text rounded-[6px] max-w-50 ${tab === 0 ? 'bg-[#1570EF]  text-white' : 'bg-none  text-[#414651]'}`} onClick={() => handleTab(0)}> <strong>SAAS</strong> </button>
+                        <button className={`py-[12px] px-[14px] w-full outline-none border-0 text rounded-[6px] max-w-50 ${tab === 1 ? 'bg-[#1570EF] text-white' : 'bg-none  text-[#414651]'}`} onClick={() => handleTab(1)}>  <strong>Self Hosted</strong> </button>
                     </div>
                 </div>
                 <div className="flex flex-col items-center w-full justify-start px-[16px] font-medium text-[16px] min-h-[336px]">
