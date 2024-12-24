@@ -34,3 +34,6 @@
 - **TailwindCSS**: Quickly design responsive layouts with utility-first CSS.
 - **Vite**: A blazing-fast development tool that speeds up build times.
 - **HTML & CSS**: For clean, semantic web content and styling
+
+
+**Note: Sneekeyes(Author 1) is also me. I use Github Hub and I switch between accounts. Thank you.**
