@@ -120,18 +120,16 @@ function Repository() {
                                     overflowX: "hidden"
                                 }}
                             >
-
-
                                 <style>
                                     {`
                                         @media (max-width: 768px) {
                                             .dynamic-height {
-                                            max-height: calc(90vh - 280px); /* Mobile screens */
+                                            max-height: calc(90vh - 280px);
                                             }
                                         }
                                         @media (min-width: 769px) {
                                             .dynamic-height {
-                                            max-height: calc(100vh - 200px); /* Desktop screens */
+                                            max-height: calc(100vh - 200px);
                                             }
                                         }
                                         `}
